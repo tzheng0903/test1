@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: kafkat1
+  kafka:
+    bootstrap-servers: 10.200.90.89:9092
+    consumer:
+      group-id: myGroup
